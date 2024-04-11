@@ -7,6 +7,6 @@
 # obj = list(obj)       # reassign's value to ['a', 'b', 'c', 'd']
 # obj.pop()             # neither removes the last value ['a', 'b', 'c'] [X - mutation]
 # obj[2] = 'X'          # mutates the value at index 2 ['a', 'b', 'X']
-# obj.sort()            # neither sorts the list, doesn't change it. [X - mutation]
+# obj.sort()            # neither sorts the list, doesn't change it. [X - mutation] ['X', 'a', 'b']
 # set(obj)              # neither creates a set doesn't change original value
-# obj = tuple(obj)      # reassigns the value to a ('a', 'b', 'X')
+# obj = tuple(obj)      # reassigns the value to a (X', 'a', 'b')
