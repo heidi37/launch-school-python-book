@@ -21,6 +21,8 @@ my_data = [
 
 print(my_data[2]['Inti'])
 
+# Cleaner and more elegant solution
+
 countries = {
     'Alice': 'USA',
     'Francois': 'Canada',
